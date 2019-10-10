@@ -1,0 +1,60 @@
+/* Udacity "Personal Blog Website" Front-End Project - Robin Edmunds */
+/* colour pallete: https://www.colourlovers.com/palette/3921173/Simple_As_That */
+
+/* GLOBAL STYLES */
+body {
+  background-color: #5B2036;
+  color: #050402;
+  font-family: 'Merriweather', serif;
+}
+header {
+  font-weight: bold;
+  font-size: 48px;
+}
+a {
+  color: #71969F;
+}
+a:hover {
+  color: #5B2036;
+}
+footer {
+  opacity: 0.5;
+  color: #5B2036;
+}
+
+/* GRID LAYOUT */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(3, auto);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  margin: 20px;
+}
+.header,
+.content,
+.navigation,
+.footer {
+  background-color: #DCBEC0;
+  border-radius: 10px;
+  padding: 20px
+}
+.header {
+  grid-area: 1 / 1 / 2 / 7;
+}
+.content {
+  grid-area: 2 / 1 / 3 / 6;
+}
+.navigation {
+  grid-area: 2 / 6 / 3 / 7;
+}
+.footer {
+  grid-area: 3 / 1 / 4 / 7;
+  text-align: center;
+}
+.navigation a {
+  font-size: 1.2em;
+}
+.navigation li {
+  list-style: none;
+}

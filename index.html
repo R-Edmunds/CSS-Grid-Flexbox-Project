@@ -3,31 +3,69 @@
   <head>
     <meta charset="utf-8">
     <title>Index - Udacity Blog Project - Robin Edmunds</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/card.css">
     <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div class="main">
-      <header>
-        Header Tag
-      </header>
-      <h1>Header 1</h1>
-      <h2>Header 2</h2>
-      <h3>Header 3</h3>
-      <p><strong>Paragraph:</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      <article><strong>Article:</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</article>
-      <blockquote cite="http://hearsay">
-        <strong>The lady is not for turning.</strong> - <em>Margaret Thatcher</em>
-      </blockquote>
-      <p><a href="#dummy">Hyperlink</a></p>
-      <button type="button" name="button">Button</button>
-      <div class="flex">
-        <div class="slug-card">Card content</div>
-        <div class="slug-card" id="hamster">Card content</div>
-        <div class="slug-card">Card content</div>
+    <div class="grid">
+      <div class="header">
+        <header> Robin's Front-End Blog </header>
       </div>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/c/c6/Okonjima_Lioness.jpg" alt="wiki lioness" id="lion">
-      <footer>Footer example (c)</footer>
+      <div class="content">
+        <h1>Blog Posts</h1>
+        <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h2>
+        <div class="flex">
+          <div class="slug-card">
+            <div class="slug-image">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/1/1d/Campbells_dwarf.jpg" alt="">
+            </div>
+            <div class="slug-text">
+              <h3>Article Heading</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+              <button type="button" name="button" onclick=window.location.href="post.html">View Post</button>
+            </div>
+          </div>
+          <div class="slug-card">
+            <div class="slug-image">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/c/c6/Okonjima_Lioness.jpg" alt="">
+            </div>
+            <div class="slug-text">
+              <h3>Article Heading</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+              <button type="button" name="button" onclick=window.location.href="post.html">View Post</button>
+            </div>
+          </div>
+          <div class="slug-card">
+            <div class="slug-image">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/8/8b/Two-toed_sloth_Costa_Rica_-_cropped.jpg" alt="">
+            </div>
+            <div class="slug-text">
+              <h3>Article Heading</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+              <button type="button" name="button" onclick=window.location.href="post.html">View Post</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="navigation">
+        <ul>
+          <li><a href="#null">Home</a></li>
+          <li><a href="#null">Article 1</a></li>
+          <li><a href="#null">Article 2</a></li>
+          <li><a href="#null">Article 3</a></li>
+        </ul>
+      </div>
+      <div class="footer">
+        <footer>Robin Edmunds &copy;</footer>
+      </div>
     </div>
   </body>
 </html>
