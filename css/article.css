@@ -1,0 +1,85 @@
+/* Udacity "Personal Blog Website" Front-End Project - Robin Edmunds */
+/* colour pallete: https://www.colourlovers.com/palette/3921173/Simple_As_That */
+
+/* FLEXBOX - ARTICLE CONTAINER */
+
+/* MOBILE SCREEN */
+@media screen and (max-width: 720px) {
+  .article {
+    display: flex;
+    flex-direction: column;
+  }
+  .article-body {
+    display: block;
+    flex: 2;
+    padding: 25px;
+  }
+  .article-album {
+    display: block;
+    flex-direction: column;
+    /* flex: 1; */
+    padding: 25px;
+  }
+  .article-image {
+    text-align: center;
+    margin-top: 15px;
+  }
+  .article-image img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+}
+
+/* TABLET SCREEN */
+@media screen and (min-width: 721px) {
+  .article {
+    display: flex;
+    flex-direction: row;
+  }
+  .article-body {
+    display: block;
+    flex: 2;
+    padding: 25px;
+  }
+  .article-album {
+    display: block;
+    flex-direction: column;
+    flex: 1;
+    padding: 25px;
+  }
+  .article-image {
+    text-align: center;
+    margin-top: 15px;
+  }
+  .article-image img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+}
+
+/* LARGE SCREEN */
+@media screen and (min-width: 900px) {
+  .article {
+    display: flex;
+    flex-direction: row;
+  }
+  .article-body {
+    display: block;
+    flex: 2;
+    padding: 25px;
+  }
+  .article-album {
+    display: block;
+    flex-direction: column;
+    flex: 1;
+    padding: 25px;
+  }
+  .article-image {
+    text-align: center;
+    margin-top: 15px;
+  }
+  .article-image img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+}
