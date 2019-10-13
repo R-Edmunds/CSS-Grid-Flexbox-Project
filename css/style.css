@@ -1,28 +1,42 @@
 /* Udacity "Personal Blog Website" Front-End Project - Robin Edmunds */
 /* colour pallete: https://www.colourlovers.com/palette/3921173/Simple_As_That */
 
+/* CSS IMPORTS */
+@import url("index/slug-card.css");
+@import url("post/post.css");
+@import url("post/author-card.css");
+
 /* GLOBAL STYLES */
 body {
   background-color: #5B2036;
-  color: #050402;
   font-family: 'Merriweather', serif;
-}
-header {
-  font-weight: bold;
-  font-size: 48px;
 }
 a {
   color: #71969F;
+  text-decoration: none;
 }
 a:hover {
   color: #5B2036;
+  text-decoration: underline;
+  text-decoration-color: #F7F4ED;
 }
 footer {
   opacity: 0.5;
   color: #5B2036;
 }
-.grid {
+h2 {
+  font-size: 2em;
+}
+.grid-layout {
   max-width: 1280px;
+}
+.header {
+  font-weight: bold;
+  font-size: 1.8em;
+  text-shadow: 1px 1px 2px #5B2036;
+}
+.navigation li {
+  padding-bottom: 1em;;
 }
 
 /* MOBILE SCREEN */
@@ -56,12 +70,6 @@ footer {
   .footer {
     grid-area: 4 / 1 / 5 / 2;
     text-align: center;
-  }
-  .navigation a {
-    font-size: 1.2em;
-  }
-  .navigation li {
-    list-style: none;
   }
 }
 
@@ -97,12 +105,6 @@ footer {
     grid-area: 4 / 1 / 5 / 2;
     text-align: center;
   }
-  .navigation a {
-    font-size: 1.2em;
-  }
-  .navigation li {
-    list-style: none;
-  }
 }
 /* LARGE SCREEN */
 @media screen and (min-width: 900px) {
@@ -135,11 +137,5 @@ footer {
   .footer {
     grid-area: 3 / 1 / 4 / 7;
     text-align: center;
-  }
-  .navigation a {
-    font-size: 1.2em;
-  }
-  .navigation li {
-    list-style: none;
   }
 }

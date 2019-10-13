@@ -1,8 +1,8 @@
 /* Udacity "Personal Blog Website" Front-End Project - Robin Edmunds */
 /* colour pallete: https://www.colourlovers.com/palette/3921173/Simple_As_That */
 
-/* FLEXBOX - CARD CONTAINER */
-.flex {
+/* FLEXBOX - SLUG CARD CONTAINER */
+.slug-container {
   display: flex;
   flex-direction: column;
 }
