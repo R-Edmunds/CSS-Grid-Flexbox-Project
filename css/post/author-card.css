@@ -1,38 +1,37 @@
+/* Udacity "Personal Blog Website" Front-End Project - Robin Edmunds */
+/* colour pallete: https://www.colourlovers.com/palette/3921173/Simple_As_That */
+
+.author-card {
+  display: flex;
+  background-color: #71969F;
+  color: #F7F4ED;
+  padding: 25px;
+  border-radius: 10px;
+}
+
 /* MOBILE + TABLET SCREEN */
 @media screen and (max-width: 700px) {
   .author-card {
-    display: flex;
     flex-direction: column;
-    background-color: #71969F;
-    color: #F7F4ED;
-    padding: 25px;
-    border-radius: 10px;
+    align-items: center;
   }
   .author-avatar {
-    display: block;
-    flex: 4;
-    padding: 10px;
-    margin-top: auto;
-    margin-bottom: auto;
+    width: 60%;
+    margin-bottom: 25px;
   }
   .author-avatar img {
-    max-width: 200px;
+    max-width: 100%;
     border-radius: 10px;
-  }
-  .author-text {
-    display: block;
-    flex: 12;
-    margin-top: auto;
-    margin-bottom: auto;
   }
   .author-socials {
     display: flex;
-    flex: 1;
     flex-direction: row;
-    font-family: 'Open Sans', sans-serif;
+    width: 60%;
     background-color: #F7F4ED;
-    padding: 10px;
+    padding: 20px;
     border-radius: 10px;
+    justify-content: center;
+    margin-top: 25px;
   }
   .author-icon {
     margin-left: auto;
@@ -40,18 +39,13 @@
   }
   .author-icon img {
     max-width: 100px;
-    min-width: 20px;
+    min-width: 40px;
   }
 }
 /* LARGE SCREEN */
 @media screen and (min-width: 701px) {
   .author-card {
-    display: flex;
     flex-direction: row;
-    background-color: #71969F;
-    color: #F7F4ED;
-    padding: 25px;
-    border-radius: 10px;
   }
   .author-avatar {
     display: block;
@@ -74,7 +68,6 @@
     display: flex;
     flex: 1;
     flex-direction: column;
-    font-family: 'Open Sans', sans-serif;
     background-color: #F7F4ED;
     padding: 10px;
     border-radius: 10px;
@@ -85,6 +78,6 @@
   }
   .author-icon img {
     max-width: 100px;
-    min-width: 20px;
+    min-width: 40px;
   }
 }
