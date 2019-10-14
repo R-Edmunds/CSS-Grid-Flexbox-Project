@@ -6,6 +6,7 @@
   display: flex;
   flex-direction: column;
 }
+
 .slug-card {
   color: #F7F4ED;
   background-color: #71969F;
@@ -13,6 +14,7 @@
   margin: 10px;
   border-radius: 10px;
 }
+
 .slug-text button {
   font-family: inherit;
   font-size: 1.2em;
@@ -23,6 +25,7 @@
   border-color: #DCBEC0;
 }
 
+
 /* MOBILE SCREEN */
 @media screen and (max-width: 720px) {
   /* FLEXBOX - CARD */
@@ -30,17 +33,22 @@
     display: flex;
     flex-direction: column;
   }
+
   .slug-image {
     padding: 5px;
   }
+
   .slug-image img {
     border-radius: 10px;
     max-width: 100%;
   }
+
   .slug-text {
     padding: 5px;
   }
+
 }
+
 
 /* TABLET + LARGE SCREENS */
 @media screen and (min-width: 721px) {
@@ -49,19 +57,23 @@
     display: flex;
     flex-direction: row;
   }
+
   .slug-image {
     flex: 1;
     padding: 5px;
     margin-top: auto;
     margin-bottom: auto;
   }
+
   .slug-image img {
     max-width: 100%;
     min-width: 100%;
     border-radius: 10px;
   }
+
   .slug-text {
     flex: 3;
     padding-left: 25px;
   }
+
 }
