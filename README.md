@@ -8,3 +8,8 @@ Udacity Front-End Course - Project 1
 ---
 
 Live version: https://getlegit.co.uk/udacity/
+
+
+---
+
+Animal images creative commons from wikipedia
