@@ -7,80 +7,78 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
   </head>
-  <body>
-    <main>
+  <body class="global-body">
+    <main class="body-container">
 
       <div class="grid-layout">
-        <div class="banner">
-          <h1>Robin's Front-End Blog</h1>
-        </div>
+        <header class="banner">
+          <h1 class="banner-text">Robin's Front-End Blog</h1>
+        </header>
 
-        <content>
-          
-          <div class="article">
+        <content class="content">
 
-            <div class="article-body">
-              <article>
-                <header>
-                  <h2>An Amazing Article About Nothing</h2>
-                </header>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco <strong>strong text</strong> laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-                <blockquote cite="http://hearsay">
-                  The lady is not for turning. - Margaret Thatcher
-                </blockquote>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris <em>emphasis</em> nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat <u>some underlined text</u> nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-                <p><a href="index.html">Hyperlink</a></p>
-                <h3>Aside</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip <em> some more emphasis</em> ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-              </article>
-            </div>
+          <section class="article">
+
+            <article class="article-body">
+              <header>
+                <h2 class="global-h2">An Amazing Article About Nothing</h2>
+              </header>
+              <p class="global-p">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco <strong class="global-strong">strong text</strong> laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+              <blockquote class="article-quote" cite="http://hearsay">
+                The lady is not for turning. - Margaret Thatcher
+              </blockquote>
+              <p class="global-p">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris <em class="global-em">emphasis</em> nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat <u class="global-u">some underlined text</u> nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+              <p class="global-p"><a class="global-a" href="index.html">Hyperlink</a></p>
+              <h3 class="global-h3">Aside</h3>
+              <p class="global-p">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip <em class="global-em"> some more emphasis</em> ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+            </article>
 
             <div class="article-album">
               <div class="article-image">
-                <img src="img/post/lion.jpg">
+                <img class="article-image-img" src="img/post/lion.jpg">
                 <caption>Lion</caption>
               </div>
               <div class="article-image">
-                <img src="img/post/stretched-rats.jpg">
+                <img class="article-image-img" src="img/post/stretched-rats.jpg">
                 <caption>Stretched Rats</caption>
               </div>
               <div class="article-image">
-                <img src="img/post/lioness.jpg">
+                <img class="article-image-img" src="img/post/lioness.jpg">
                 <caption>Lioness worried she left the oven on</caption>
               </div>
             </div>
 
-          </div>
+          </section>
 
-          <div class="author-card">
+          <section class="author-card">
 
             <div class="author-avatar">
-              <img src="img/post/avatar.jpg" alt="">
+              <img class="author-avatar-img" src="img/post/avatar.jpg" alt="">
             </div>
 
             <div class="author-text">
               <table>
                 <tbody>
                   <tr>
-                    <td><strong>Name:</strong></td>
+                    <td><strong class="global-strong">Name:</strong></td>
                     <td>Robin Edmunds</td>
                   </tr>
                   <tr>
-                    <td><strong>Title:</strong></td>
+                    <td><strong class="global-strong">Title:</strong></td>
                     <td>Full-Stack Web Developer</td>
                   </tr>
                   <tr>
-                    <td><strong>School:</strong></td>
+                    <td><strong class="global-strong">School:</strong></td>
                     <td>Udacity</td>
                   </tr>
                   <tr>
-                    <td><strong>Bio:</strong></td>
+                    <td><strong class="global-strong">Bio:</strong></td>
                     <td>Full-stack developer specialising in Django / Python. Windows / Linux system administrator.</td>
                   </tr>
                 </tbody>
@@ -89,30 +87,30 @@
 
             <div class="author-socials">
               <div class="author-icon">
-                <a href="https://twitter.com"><img src="img/socials/twitter.svg" alt="twitter"></a>
+                <a href="https://twitter.com"><img class="author-icon-img" src="img/socials/twitter.svg" alt="twitter"></a>
               </div>
               <div class="author-icon">
-                <a href="https://facebook.com"><img src="img/socials/facebook.svg" alt="facebook"></a>
+                <a href="https://facebook.com"><img class="author-icon-img" src="img/socials/facebook.svg" alt="facebook"></a>
               </div>
               <div class="author-icon">
-                <a href="https://linkedin.com"><img src="img/socials/linkedin.svg" alt="linkedin"></a>
+                <a href="https://linkedin.com"><img class="author-icon-img" src="img/socials/linkedin.svg" alt="linkedin"></a>
               </div>
             </div>
 
-          </div>
+          </section>
         </content>
 
         <nav role="navigation" class="navigation">
           <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="post.html">A post title</a></li>
-            <li><a href="post.html">An article title</a></li>
-            <li><a href="post.html">A tutorial of some sort</a></li>
+            <li class="navigation-li"><a class="global-a" href="index.html">Home</a></li>
+            <li class="navigation-li"><a class="global-a" href="post.html">A post title</a></li>
+            <li class="navigation-li"><a class="global-a" href="post.html">An article title</a></li>
+            <li class="navigation-li"><a class="global-a" href="post.html">A tutorial of some sort</a></li>
           </ul>
         </nav>
 
-        <footer>
-          <p>Robin Edmunds &copy;</p>
+        <footer class="footer">
+          <p class="footer-text">Robin Edmunds &copy;</p>
         </footer>
 
       </div>

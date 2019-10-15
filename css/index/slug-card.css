@@ -15,7 +15,7 @@
   border-radius: 10px;
 }
 
-.slug-text button {
+.slug-button {
   font-family: inherit;
   font-size: 1.2em;
   width: 100%;
@@ -38,7 +38,7 @@
     padding: 5px;
   }
 
-  .slug-image img {
+  .slug-image-img {
     border-radius: 10px;
     max-width: 100%;
   }
@@ -65,7 +65,7 @@
     margin-bottom: auto;
   }
 
-  .slug-image img {
+  .slug-image-img {
     max-width: 100%;
     min-width: 100%;
     border-radius: 10px;
